@@ -29,4 +29,5 @@ jobs:
           plugin_traffic: yes
           plugin_habits: no
           plugin_discussions: yes
+          plugin_discussions_categories: no
           config_order: base.header, isocalendar, languages, stars, sponsorships, followup, activity, traffic, habits, discussion
