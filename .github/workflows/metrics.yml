@@ -22,4 +22,10 @@ jobs:
           plugin_isocalendar: yes
           plugin_languages: yes
           plugin_stars: yes
-          config_order: base.header, isocalendar, languages, stars
+          plugin_sponsorships: yes
+          plugin_followup: yes
+          plugin_activity: yes
+          plugin_traffic: yes
+          plugin_habits: yes
+          plugin_discussions: yes
+          config_order: base.header, isocalendar, languages, stars, sponsorships, followup, activity, traffic, habits, discussion
