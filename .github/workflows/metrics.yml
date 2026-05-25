@@ -14,7 +14,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: CrazyWolf13/metrics@master
+      - uses: CrazyWolf13/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: Europe/Zurich
