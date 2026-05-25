@@ -5,6 +5,10 @@
     color: #777777;
   }
 
+  section {
+  	margin-bottom: 12px;  /* custom: more spaces for sections */
+  }
+
 /* Large SVG context */
   svg.large .largeable {
     width: 474px;
@@ -54,7 +58,7 @@
 
 /* Headers */
   h1, h2, h3 {
-    margin: 8px 0 16px;
+    margin: 8px 0 16px; /* custom: more spaces for sections */
     padding: 0;
     color: #0366d6;
     font-weight: normal;
