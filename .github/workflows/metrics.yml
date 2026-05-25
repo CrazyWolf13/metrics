@@ -19,7 +19,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: Europe/Zurich
           base: header
-          plugin_introduction: yes
+          plugin_introduction: no
           plugin_isocalendar: yes
           plugin_isocalendar_duration: "full-year"
           plugin_languages: no
@@ -32,4 +32,4 @@ jobs:
           plugin_habits: no
           plugin_discussions: yes
           plugin_discussions_categories: no
-          config_order: base.header, isocalendar, introduction, languages, stars, sponsorships, followup, activity, traffic, habits, discussion
+          config_order: base.header, isocalendar, introduction, languages, followup, activity, traffic, habits, discussion, stars, sponsorships
