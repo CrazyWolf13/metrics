@@ -14,7 +14,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@v3.34
+      - uses: CrazyWolf13/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: Europe/Zurich
@@ -24,11 +24,9 @@ jobs:
           plugin_stars: yes
           plugin_sponsorships: yes
           plugin_followup: yes
-          plugin_activity: yes
+          plugin_activity: no
           plugin_activity_filter: "all"
           plugin_traffic: yes
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
+          plugin_habits: no
           plugin_discussions: yes
           config_order: base.header, isocalendar, languages, stars, sponsorships, followup, activity, traffic, habits, discussion
